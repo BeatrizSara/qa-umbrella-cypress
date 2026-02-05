@@ -4,7 +4,7 @@ describe('Login', () => {
   it('Usuario loga e desloga com sucesso', () => {
     cy.visit('https://www.saucedemo.com/')
 
-     // Tela de login
+     //Tela de login
     cy.get('.login_logo').should('exist')
 
     //Realiza Login
